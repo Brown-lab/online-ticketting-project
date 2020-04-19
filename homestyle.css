@@ -1,0 +1,197 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: 'montserrat';
+}
+
+nav {
+    background: slategrey;
+    height: 15%;
+    width: 100%;
+}
+
+.logo {
+    color: whitesmoke;
+    font-size: 40px;
+    line-height: 70px;
+    padding: 0 80px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+}
+
+nav ul a {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: tomato;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    color: whitesmoke;
+}
+
+.maincontent {
+    background-image: url(../img/coach-hub-hero.jpg);
+    background-size: cover;
+    height: 70%;
+    width: 100%;
+    border: solid 1px black;
+}
+
+.maincontent h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.maincontent h2 {
+    text-align: center;
+    color: skyblue;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    margin: 150px 240px;
+    border: solid 1px grey;
+    font-size: 14px;
+    font-weight: bold;
+    color: darkgrey;
+}
+
+form div {
+    background-color: whitesmoke;
+    border: solid 1px grey;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+
+form div #calendar {
+    display: flex;
+    border: none;
+}
+
+form div #calendar input {
+    width: 150px;
+}
+
+form div #calendar input {
+    margin-left: 30px;
+}
+
+form div #calendar span {
+    position: absolute;
+    font-size: 25px;
+    font-size: bold;
+}
+
+#calendar > span:hover {
+    cursor: pointer;
+}
+form .submit-btn {
+    background-color: darkcyan;
+    cursor: pointer;
+}
+
+form select {
+    height: 30px;
+    width: 200px;
+    background-color: whitesmoke;
+    font-weight: bold;
+    color: grey;
+    font-size: 20px;
+    border: none;
+}
+
+form input {
+    height: 30px;
+    width: 200px;
+    background-color: whitesmoke;
+    font-weight: bold;
+    color: grey;
+    font-size: 20px;
+    border: none;
+}
+
+form label {
+    padding-left: 5px;
+}
+
+button[type="submit"] {
+    max-width: 100px;
+    background-color: darkcyan;
+    color: whitesmoke;
+    margin: 15px 0;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.footer .first-footer {
+    display: flex;
+    background-color: #222;
+    color: whitesmoke;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.footer .first-footer {
+    padding: 5px 20px;
+}
+
+.footer .first-footer div {
+    display: block;
+}
+
+.footer .first-footer div p {
+    margin-top: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.footer .first-footer div ul {
+    margin-bottom: 0;
+    text-transform: capitalize;
+    list-style: none;
+}
+
+.footer .first-footer div a {
+    display: flex;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.footer .first-footer div:last-child ul {
+    color: blue;
+}
+
+.footer .second-footer {
+    height: 50px;
+    background-color: #403d3d;
+    color: darkgrey;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+.footer .second-footer p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+}

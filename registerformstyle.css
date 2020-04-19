@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'montserrat';
+}
+
+form {
+    margin: 25%;
+    padding-bottom: 30px;
+    border: solid 1px lightgrey;
+    border-radius: 5px;
+    box-shadow: 10px 10px 50px 10px slategrey;
+}
+
+.form-header {
+    background-color: slategrey;
+    width: auto;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.form-header span {
+    position: absolute;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.form-header h1 {
+    position: relative;
+    margin-left: 50px;
+    color: tomato;
+}
+
+form .container {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+form .container input {
+    width: 450px;
+    height: 30px;
+    border: solid 1px slategrey;
+    border-radius: 3px;
+    margin-left: 10px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+form .container button {
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    background-color: darkcyan;
+    color: whitesmoke;
+    font-size: 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+form .container button:first-child {
+    background-color: whitesmoke;
+    border: solid 2px tomato;
+    color: tomato;
+}

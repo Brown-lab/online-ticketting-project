@@ -1,0 +1,111 @@
+<!Doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Online Bus Ticketting</title>
+    <link rel="stylesheet" type="text/css" href="css/homestyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav>
+        <label class="logo">PickAbuS</label>
+        <ul>
+            <li><a href="home.html"><i class="fa fa-fw fa-home"></i>home</a></li>
+            <li><a href="downloadticket.html">download ticket</a></li>
+            <li><a href="aboutus.html">about us</a></li>
+            <li><a href="signinform.html"><i class="fa fa-fw fa-user"></i>login</a></li>
+            <li><a href="tel:+255717606015"><i class="fa fa-fw fa-phone"></i>+255717606015</a></li>
+        </ul>
+    </nav>
+    <div class="maincontent">
+        <h1>welcome to pickabus</h1>
+        <h2>The easiest way to book bus in Tanzania</h2>
+        <form>
+            <div>
+                <label for="from">From</label><br />
+                <select name="from" id="from" required>
+                    <option value="Select From">Select From</option>
+                    <option value="Dar Es Salaam">Dar Es Salaam</option>
+                    <option value="Morogoro">Morogoro</option>
+                    <option value="Tanga">Tanga</option>
+                    <option value="Dodoma">Dodoma</option>
+                    <option value="Arusha">Arusha</option>
+                    <option value="Mwanza">Mwanza</option>
+                    <option value="Mbeya">Mbeya</option>
+                </select>
+            </div>
+            <div>
+                <label for="to">To</label><br />
+                <select name="to" id="to" required>
+                    <option value="Select To">Select To</option>
+                    <option value="Dar Es Salaam">Dar Es Salaam</option>
+                    <option value="Morogoro">Morogoro</option>
+                    <option value="Tanga">Tanga</option>
+                    <option value="Dodoma">Dodoma</option>
+                    <option value="Arusha">Arusha</option>
+                    <option value="Mwanza">Mwanza</option>
+                    <option value="Mbeya">Mbeya</option>
+                </select>
+            </div>
+            <div>
+                <label for="date-of-travel">Date of Travel</label><br />
+                <div id="calendar" data-date-formate="dd mm yyyy">
+                    <input type="text" id="date" name="date" class="datepicker hasDatepicker" value="27 Feb 2020" required>
+                    <span><i class="fa fa-fw fa-calendar"></i></span>
+                </div>
+
+                <script>
+                    var d = new Date(".value");
+                    document.getElementById("date").innerHTML = (("0"+d.getDate()).slice(-2)) + " " + (("0"+(d.getMonth())+1).slice(-2)) + " " + (d.getFullYear());
+                </script>
+
+            </div>
+            <div class="submit-btn">
+                <button type="submit" value="Search Bus">Search Bus</button>
+            </div>
+        </form>
+    </div>
+    <div class="adverts">
+        <ul>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+            <li><img src="" alt=""></li>
+        </ul>
+    </div>
+    <div class="footer">
+        <div class="first-footer">
+            <div>
+                <p>contact information</p>
+                <ul>
+                    <li>pick a bus corporation</li>
+                    <li>p.o. box 5491</li>
+                    <li>dar es salaam</li>
+                    <li>tanzania</li>
+                </ul>
+            </div>
+            <div>
+                <a href="mailto:brownjohnnguli@gmail.com"><i class="fa fa-fw fa-envelope"></i>brownjohnnguli@gmail.com</a>
+                <a href="tel:+255717606015"><i class="fa fa-fw fa-phone"></i>+255717606015</a>
+                <a href="home.html"><i class="fa fa-fw fa-globe"></i>www.pickabus.co.tz</a>
+            </div>
+            <div>
+                <p>top operators</p>
+                <ul>
+                    <li>dar express</li>
+                    <li>asante rabi express</li>
+                    <li>shabiby line</li>
+                    <li>buti la zungu</li>
+                    <li>wifi naye</li>
+                    <li>abc upperclass</li>
+                </ul>
+            </div>
+        </div>
+        <div class="second-footer">
+            <p>&copy; PickABus 2020 - All Right Reserved.</p>
+        </div>
+    </div>
+</body>
+
+</html>
