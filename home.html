@@ -55,12 +55,6 @@
                     <input type="text" id="date" name="date" class="datepicker hasDatepicker" value="27 Feb 2020" required>
                     <span><i class="fa fa-fw fa-calendar"></i></span>
                 </div>
-
-                <script>
-                    var d = new Date(".value");
-                    document.getElementById("date").innerHTML = (("0"+d.getDate()).slice(-2)) + " " + (("0"+(d.getMonth())+1).slice(-2)) + " " + (d.getFullYear());
-                </script>
-
             </div>
             <div class="submit-btn">
                 <button type="submit" value="Search Bus">Search Bus</button>
